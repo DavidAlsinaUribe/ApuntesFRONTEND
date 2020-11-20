@@ -1,0 +1,29 @@
+.imagen{
+    display: inherit;
+}
+.text{
+    color: white;
+    
+}
+.titulo{
+    text-align: center;
+    margin: 1em 8em 2em 8em;
+   
+    
+    
+}
+.Nom{
+    text-align: center;
+    font-size: x-small;
+    margin-top: 5em;
+
+}
+.paragrafs{    
+    margin: 0 3em 2em 3em;
+}
+.fondo{
+    background: linear-gradient( #102842, #445060);
+    margin: 0;
+    display: inline-block;
+
+}
