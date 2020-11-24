@@ -1,0 +1,175 @@
+@font-face{
+    font-family: Champagne;
+    src: url(./RES/Champagne\ &\ Limousines.ttf);
+
+}
+
+body{
+    /* background-image: url(./IMG/pexels-adrianna-calvo-4615136.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    margin: auto;
+    font-family: Champagne;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(39, 77%, 83%, 70%);
+    color: #02333a;
+}
+.cont{
+    margin: auto;
+    display: flex;
+    width: 1200px;
+    
+    
+    
+}
+.menu ul{
+    width: 100px;
+    background-color: wheat;
+    border-radius: 1em;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 25px;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    
+}
+.menu .barra li a{
+    /* background-color: rgb(187, 168, 133); */
+    padding:10px;
+    text-decoration: none;
+    position: sticky;
+    
+}
+
+.apartats{
+    color: #02333a;
+}
+.apartats:hover{
+    color:#fe4e4e ;
+    background-color:#02333a
+    
+}
+.menu{
+    position: sticky;
+}
+.center{
+    width: 700px;
+}
+.main{
+    width: 675px;
+    justify-content: space-between;
+    display: flex;
+    text-align: justify;
+}
+/* .bali{
+    width: 500px;
+} */
+
+li{
+    justify-content: space-around;
+    font-size: larger;
+    margin: 1em 0;
+    font-weight: bold;
+    
+}
+.block{
+    width: 100px;
+    display: inline-block;
+    margin: 2em;
+    font-size: x-large;
+}
+.texto{
+    width: 500px;
+}
+.link {
+    
+    background-color: wheat;
+    padding: 1em 1em ;
+    
+    margin: 10px 0 15px 0;
+    border-radius: .5em;
+}
+.link a{
+    text-decoration: none;
+}
+h3{
+    color: #fe4e4e;
+}
+.grid{
+    display: grid;
+    margin: auto;
+    margin-top:20px;
+    width: 400px;
+    column-gap:2px;
+    row-gap: 2px;
+    grid-template-areas: 
+    'img1 img1 img4  img4'
+    'img1 img1 img2 img5'
+    'img1 img1 img2 img3'
+    'img6 img6 img6 img3';
+    position: sticky;
+    top: 10px;
+}
+.img1{
+    background-image: url(./IMG/1.jpg);
+    background-size: cover;
+    grid-area: img1;
+    width:200px;
+    height:300px;
+}
+.img2{
+    background-image: url(./IMG/2.jpg);
+    background-size: cover;
+    grid-area: img2;
+    width:100px;
+    height:200px;
+}
+.img3{
+    background-image: url(./IMG/3.jpg);
+    background-size: cover;
+    grid-area: img3;
+    width:100px;
+    height:200px;
+}
+.img4{
+    background-image: url(./IMG/4.jpg);
+    background-size: cover;
+    grid-area: img4;
+    width:200px;
+    height:100px;
+}
+.img5{
+    background-image: url(./IMG/5.jpg);
+    background-size: contain;
+    grid-area: img5;
+    width:100px;
+    height:100px;
+}
+.img6{
+    background-image: url(./IMG/6.jpg);
+    background-size: cover;
+    grid-area: img6;
+    width:300px;
+    height:100px;
+}
+.copy{
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+.enlace{
+    background-color: rgb(156, 124, 65);
+    height: 50px;
+    
+}
+a .img{
+    width: 30px;
+    height: 30px;
+}
